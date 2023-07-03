@@ -16,12 +16,12 @@ const catchAsync = error.catchAsync;
 
     //GET /employeeslist/widoczna
 
-    api.get('/api/employesslist/visibility', catchAsync(controller.getVisiblity))
+    api.get('/api/employeeslist/visibility', catchAsync(controller.getVisiblity))
 
 
     //PUT /employeeslist/widoczna
 
-    api.put('/api/employesslist/visibility', catchAsync(controller.putVisiblity))
+    api.put('/api/employeeslist/visibility', catchAsync(controller.putVisiblity))
 
     //POST /employeeslist
 
